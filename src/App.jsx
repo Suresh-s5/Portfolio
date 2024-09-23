@@ -7,10 +7,12 @@ function App() {
 
   return (
     <>
+
     <div className='App'> 
       <Intro/>
       <Portfolio/>
       <Contact/>
+      <h1></h1>
 
     </div>
     </>
