@@ -3,7 +3,8 @@ import React from "react";
 function Intro(){
     return(
         <>
-        Hello welcom</>
+        <div className="font-robotoMono">Hello welcome</div>
+        </>
     );
 }
 
