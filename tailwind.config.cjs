@@ -4,17 +4,15 @@ export default {
 ,
   darkMode:"class",
   theme: {
-    extend: {},
+    extend: {
+
+      fontFamily: {
+        gowun: ['"Gowun Batang"', 'serif'], 
+        robotoMono: ['"Roboto Mono"', 'monospace'],
+      },
+
+    },
   },
   plugins: [],
 }
 
-
-// /** @type {import('tailwindcss').Config} */
-// module.exports = {
-//   content: ["./src/**/*.{html,js}"],
-//   theme: {
-//     extend: {},
-//   },
-//   plugins: [],
-// }
