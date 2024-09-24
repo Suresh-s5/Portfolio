@@ -8,7 +8,7 @@ function Intro() {
             <p className="text-base">I hold a degree in Computer Science and am currently working as 
                 a Junior Developer. With a strong foundation in programming, I specialize in building
                  web applications and have experience with modern frameworks like React and backend 
-                 technologies. I’m passionate about solving complex problems and continuously 
+                 technologies. I'm passionate about solving complex problems and continuously 
                  improving my skills to deliver efficient and scalable solutions. In my current role,
                   I focus on both frontend and backend development, ensuring seamless user 
                   experiences and well-structured code.</p>
