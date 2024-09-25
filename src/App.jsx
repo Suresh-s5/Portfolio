@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, {useEffect, useState } from 'react'
 import Intro from './components/Intro'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
@@ -14,8 +14,8 @@ function App() {
       <Portfolio/>
       <Contact/>
       <Footer/>
-      <h1></h1>
-
+     
+      <h1>Hello World</h1>
     </div>
     </>
   );
