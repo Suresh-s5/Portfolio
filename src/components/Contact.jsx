@@ -12,7 +12,6 @@ function Contact(){
         className="flex flex-col w-full md:w-7/12">
             
             <Title>Contact</Title>
-            
             <input type="text" name="name"  
             placeholder="Name" 
             className="p-2 bg-transparent border-2 rounded-md focus:outline-none"/>
@@ -25,6 +24,7 @@ function Contact(){
             placeholder="Message"
             rows="7"
             className="p-2 bg-transparent border-2 rounded-md focus:outline-none"/>
+
             
             <div className="flex justify-center mt-4">
             
@@ -36,6 +36,7 @@ function Contact(){
             
             </div>
           
+
         </form>
 
         </div>
