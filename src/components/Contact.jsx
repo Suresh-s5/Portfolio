@@ -5,8 +5,12 @@ function Contact(){
     return(
         <>
          <div className="font-robotoMono flex flex-col mb-10 mx-auto">
-          <div className=" flex justify-center items-center">
-        <form action="" className="flex flex-col w-full md:w-7/12">
+        <div className=" flex justify-center items-center">
+        
+        <form action="https://getform.io/f/bnlemoob" 
+        method="Post"
+        className="flex flex-col w-full md:w-7/12">
+            
             <Title>Contact</Title>
             <input type="text" name="name"  
             placeholder="Name" 
@@ -20,16 +24,24 @@ function Contact(){
             placeholder="Message"
             rows="7"
             className="p-2 bg-transparent border-2 rounded-md focus:outline-none"/>
+
+            
             <div className="flex justify-center mt-4">
-            <button type="button" 
+            
+            <button type="submit" 
             className="inline-block  text-center px-8 py-3 w-max text-base font-medium
             rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500
-            drop-shadow-md hover:stroke-white">work with me</button>
+            drop-shadow-md hover:stroke-white">
+              work with me</button>
+            
             </div>
+          
+
         </form>
 
-          </div>
-        </div></>
+        </div>
+        </div>
+        </>
     );
 }
 
