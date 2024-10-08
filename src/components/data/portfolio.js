@@ -1,7 +1,7 @@
 export default[
     {
-        Title: "1",
-        Stack:["html","css"],
+        Title: "sign up page",
+        Stack:["react","go","sql"],
         Link:""
     },
     {
