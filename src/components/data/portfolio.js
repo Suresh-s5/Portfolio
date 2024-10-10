@@ -5,9 +5,9 @@ export default[
         Link:""
     },
     {
-        Title: "2",
-        Stack:["html","css"],
-        Link:""
+        Title: "ToDO List",
+        Stack:["React","tailwind"],
+        Link:"https://todo-list-05s.netlify.app/"
     },
     {
         Title: "3",
